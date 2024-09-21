@@ -9,3 +9,11 @@ https://platform.openai.com/api-keys
 
 
 
+```javascript
+// run the server
+cd 
+node server.js
+```
+
+
+
