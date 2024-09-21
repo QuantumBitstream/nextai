@@ -3,6 +3,7 @@
 
 
 ```javascript
+// concurrently "npm start" "npm run server"
 npm run dev
 ```
 
