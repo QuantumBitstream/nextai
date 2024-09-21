@@ -3,7 +3,7 @@
 
 
 ```javascript
-// concurrently "npm start" "npm run server"
+// concurrently "npm start" "npm run server" 启动前端 启动后端
 npm run dev
 ```
 
