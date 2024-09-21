@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "17443410-ae04-42bd-81e5-4618fbf0b1e2",
+		"name": "nextai",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17979762"
+	},
+	"item": [
+		{
+			"name": "/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/Downloads/树莓派安装QT5教程.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5001/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/chat",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/Downloads/树莓派安装QT5教程.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5001/chat?question=what is this article about",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"chat"
+					],
+					"query": [
+						{
+							"key": "question",
+							"value": "what is this article about"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
