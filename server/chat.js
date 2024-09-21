@@ -42,6 +42,7 @@ const chat = async (filePath = "./uploads/hbs-lean-startup.pdf", query) => {
 
     // step 5: qa w/ customzie the prompt
     const model = new ChatOpenAI({
+        // https://platform.openai.com/docs/models
         modelName: "gpt-3.5-turbo",
         openAIApiKey: process.env.REACT_APP_OPENAI_API_KEY,
     });
