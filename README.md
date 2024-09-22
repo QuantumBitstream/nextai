@@ -5,6 +5,11 @@
 ```javascript
 // concurrently "npm start" "npm run server" 启动前端 启动后端
 npm run dev
+
+npm i react-speech-recognition@3.10.0
+
+npm i speak-tts@2.0.8
+
 ```
 
 
