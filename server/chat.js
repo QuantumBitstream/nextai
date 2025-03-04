@@ -47,6 +47,9 @@ const chat = async (filePath = "./uploads/hbs-lean-startup.pdf", query) => {
         openAIApiKey: process.env.REACT_APP_OPENAI_API_KEY,
     });
 
+    // if you need the answers for all questions not only about the pdf, you can delete
+    // ' If you don't know the answer, just say that you don't know, don't try to make up an answer.
+    //   Use three sentences maximum and keep the answer as concise as possible. '
     const template = `Use the following pieces of context to answer the question at the end.
     If you don't know the answer, just say that you don't know, don't try to make up an answer.
     Use three sentences maximum and keep the answer as concise as possible.
