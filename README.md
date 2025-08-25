@@ -198,6 +198,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ---
 
+## 📸 项目截图
+
+
+[//]: # (![首页截图]&#40;server/assets/动画.gif&#41;)
+
+<p align="center">
+  <img src="server/assets/动画.gif" width="400" alt="demo">
+</p>
+
+---
+
 ## 安全最佳实践
 
 1. **永远不要在前端存储 API 密钥**
