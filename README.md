@@ -45,18 +45,18 @@ nextai-express-react/
 │   ├── public/
 │   ├── src/
 │   │   ├── api/               # API 调用
-│   │   │   └── nextai.ts      # NextAI 客户端
+│   │   │   └── nextai.js      # NextAI 客户端
 │   │   ├── components/        # React 组件
 │   │   │   └── Chat/
 │   │   ├── hooks/             # 自定义 Hooks
-│   │   │   └── useStream.ts   # 流处理 Hook
+│   │   │   └── useStream.js   # 流处理 Hook
 │   │   ├── store/             # 状态管理
-│   │   │   └── chatStore.ts   # 聊天状态
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── vite.config.ts         # 或其他构建配置
+│   │   │   └── chatStore.js   # 聊天状态
+│   │   ├── App.js
+│   │   └── main.js
+│   └── package.json
+│   
+│   
 │
 ├── server/                    # Express 服务器
 │   ├── src/
